@@ -63,3 +63,13 @@ footer {
   margin: 0.625rem 0rem;
   padding: 0.625rem 0rem;
 }
+@media (max-width: 480px) {
+  .container {
+    width: 90vw;
+  }
+}
+@media (max-height: 100%) and (orientation: landscape) {
+  .container {
+    height: 70vh;
+  }
+}
